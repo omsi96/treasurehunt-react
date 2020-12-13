@@ -29,7 +29,7 @@ function Navbar() {
   );
   const SignOut = () => (
     <div>
-      <h1>UserrrName</h1>
+      <h1>UserName</h1>
       <Button className="text-link" onClick={authStore.signOut()}>
         <Button color="inherit">Sign Out</Button>
       </Button>
